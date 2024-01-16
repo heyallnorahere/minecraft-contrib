@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "minecraftcontrib",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Nora Beda's Minecraft contribution library",
+	"description": "Adds various QOL items & blocks",
 	"authors": [
-		"Me!"
+		"Nora Beda"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/yodasoda1219/minecraft-contrib"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "Apache-2.0",
+	"icon": "assets/minecraftcontrib/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"net.ys1219.ContribMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"net.ys1219.ContribModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"minecraftcontrib.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "minecraftcontrib.client.mixins.json",
 			"environment": "client"
 		}
 	],
@@ -34,8 +33,5 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
