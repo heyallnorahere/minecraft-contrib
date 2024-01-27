@@ -15,10 +15,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.ys1219.ContribMod"
+			"net.ys1219.minecraftcontrib.ContribMod"
 		],
 		"client": [
-			"net.ys1219.ContribModClient"
+			"net.ys1219.minecraftcontrib.ContribModClient"
 		]
 	},
 	"mixins": [

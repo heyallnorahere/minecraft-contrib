@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.ys1219.mixin",
+	"package": "net.ys1219.minecraftcontrib.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ContribMixin"

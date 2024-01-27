@@ -1,4 +1,4 @@
-package net.ys1219;
+package net.ys1219.minecraftcontrib;
 
 import net.fabricmc.api.ClientModInitializer;
 
