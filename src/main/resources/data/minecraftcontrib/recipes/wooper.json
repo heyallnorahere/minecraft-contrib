@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "CPC",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:mud"
+        },
+        "P": {
+            "item": "minecraft:prismarine"
+        },
+        "C": {
+            "item": "minecraft:bubble_coral_block"
+        }
+    },
+    "result": {
+        "item": "minecraftcontrib:wooper",
+        "count": 1
+    }
+}

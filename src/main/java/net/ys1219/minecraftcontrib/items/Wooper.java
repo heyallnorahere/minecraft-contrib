@@ -18,7 +18,7 @@ public class Wooper extends Item {
 
     private Wooper() {
         super(new FabricItemSettings()
-            .maxCount(16));
+            .maxCount(1));
     }
 
     @Override
