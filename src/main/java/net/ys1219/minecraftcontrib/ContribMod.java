@@ -1,8 +1,6 @@
 package net.ys1219.minecraftcontrib;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.ys1219.minecraftcontrib.items.Wooper;
@@ -18,6 +16,5 @@ public class ContribMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		Registry.register(Registries.ITEM, "minecraftcontrib:wooper", Wooper.INSTANCE);
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(content -> content.add(Wooper.INSTANCE));
 	}
 }
